@@ -1,0 +1,89 @@
+.picker {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.picker label {
+  position: relative;
+  inline-size: 2rem;
+  block-size: 2rem;
+  margin-right: 0.5rem;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.picker label>span {
+  position: absolute;
+  inset: 0;
+  block-size: 100%;
+  inline-size: 100%;
+}
+.picker label[for*=size]>span {
+  font-size: 0.7rem;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  background: rgba(164, 174, 198, 0.2);
+  border-radius: 0.4rem;
+}
+.picker label[for*=size]>input:checked~span {
+  background-color: #3f78e0;
+  color: #fff;
+}
+.picker label[for*=color] {
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+}
+.picker label[for*=color]>span {
+  font-size: 1px;
+  display: grid;
+  place-items: center;
+  background: var(--color, rgba(164, 174, 198, 0.2));
+  border-radius: 100%;
+  color: transparent;
+}
+.picker label[for*=color]>input:checked~span {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--color);
+}
+
+[list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+
+.Button {
+  width: 12rem;
+  height: 100%;
+}
+
+
+.inputwrapper {
+  margin-top: 20%;
+}
+
+@media screen and (max-width:524px) {
+  .inputwrapper {
+    margin-top: 15%;
+  }
+  
+}
+
+.background {
+  background-color: rgb(113, 27, 27);
+  color: white;
+}
+
+@media screen and (max-width:524px) {
+  .background {
+    background-color: transparent;
+    color: black;
+      
+
+   
+
+  }
+  
+}
+
+

@@ -1,0 +1,43 @@
+.Red {
+    border-radius: 50px;
+    display: flex;
+    background-color: red;
+
+}
+
+.Green {
+    border-radius: 50px;
+    display: flex;
+    background-color: green;
+}
+
+.Blue {
+    border-radius: 50px;
+    display: flex;
+    background-color: blue;
+}
+
+.inputs {
+    gap: 1rem;
+    display: flex;
+    position: relative;
+}
+
+.pickercontainer {
+    margin-top: 20%;
+   position: absolute;
+}
+.buttons {
+    background-color: hsla(0, 70%, 24%, 1);
+    color: white;
+}
+
+
+
+.color1 {
+    background-color: black;
+}
+
+.color2 {
+    color: green;
+}

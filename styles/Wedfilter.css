@@ -1,0 +1,20 @@
+.filtercontainer {
+    height: 50px;
+    justify-content: left;
+    overflow: hidden;
+
+}
+
+
+.filter {
+    margin-left: 4.5%;
+}
+
+
+
+@media screen and (max-width:524px) {
+    .filter {
+        margin: auto;
+    }
+    
+}

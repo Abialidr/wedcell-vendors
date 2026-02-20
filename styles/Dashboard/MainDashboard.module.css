@@ -1,0 +1,273 @@
+.OneAboveAll {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  /* align-items: center; */
+  padding-bottom: 50px;
+  overflow-y: scroll;
+}
+.OneAboveAll1 {
+  width: 100%;
+  min-width: 1000px;
+  font-size: 15px;
+  font-family: "Ledger";
+}
+.topDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dates {
+  display: flex;
+  gap: 5px;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.dates span {
+  /* background-color: #faebd8; */
+  padding: 3px 12px;
+  border-radius: 5px;
+  color: #667085;
+  font-weight: 600;
+  cursor: pointer;
+}
+.dates .SelectedSpan {
+  background-color: #faebd8;
+  padding: 3px 12px;
+  border-radius: 5px;
+  color: #b72e5a;
+  font-weight: 600;
+}
+.topBtnDiv {
+  display: flex;
+  gap: 10px;
+}
+.topBtnDiv button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.SelectDate {
+  color: #b72e5a;
+  background-color: White;
+  border: 1px solid #b72e5a;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+.ViewProds {
+  background-color: #b72e5a;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+.SecondDiv {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+.boxView {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #bdbdbd;
+  width: 24%;
+  padding: 30px 25px;
+  background-color: #fff8f4;
+  border-radius: 8px;
+}
+.boxViewimg {
+  width: fit-content;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #bdbdbd;
+}
+.boxViewfirstSpan {
+  font-size: 17px;
+  color: #667085;
+}
+.boxViewamtincdec {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.boxViewAmount {
+  font-size: 23px;
+  color: #333843;
+  font-weight: 600;
+}
+.boxViewincdec {
+  font-size: 12px;
+  background-color: #e7f4ee;
+  color: #0d894f;
+  padding: 3px 6px;
+  border-radius: 50px;
+}
+.FourthDiv {
+  display: flex;
+  gap: 14px;
+  margin-top: 25px;
+}
+.TopSellingTable {
+  width: 70%;
+  border: 1px solid #b6b7b7;
+  background-color: #fff8f4;
+  border-radius: 8px;
+  padding: 20px;
+  height: 500px;
+  overflow-x: scroll;
+}
+.SalesbyLoc {
+  width: 30%;
+  border: 1px solid #b6b7b7;
+  border-radius: 8px;
+  padding: 20px 10px;
+  background-color: #fff8f4;
+}
+.salesbylocHead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.salesbylocspandiv {
+  display: flex;
+  flex-direction: column;
+}
+.salesbylocspan {
+  font-size: 20px;
+  font-weight: 600;
+}
+.salesbylocspan2 {
+  font-size: 16px;
+  color: #667085;
+}
+.salesbylocBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Square {
+  height: 40px;
+  width: 40px;
+  background-color: #e0e2e7;
+  border-radius: 8px;
+}
+.bodySpans {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: #1a1c21;
+}
+.ValuesDiv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.FinalDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  gap: 14px;
+}
+.Semicirclediv {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b6b7b7;
+  padding: 20px 20px;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #fff8f4;
+  justify-content: space-between;
+}
+.spanvalue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+.succedearn {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  width: 90%;
+  text-align: center;
+  color: #667085;
+  font-size: 16px;
+}
+.succedearnvalue {
+  color: black;
+  font-weight: 600;
+}
+.targetRevtod {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.targetoneCom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.targetSpan {
+  font-size: 13px;
+  color: #667085;
+}
+.valueAndImg {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+}
+.graphDiv {
+  width: 65%;
+  border: 1px solid #b6b7b7;
+  border-radius: 8px;
+  background-color: #fff8f4;
+  padding: 20px;
+  align-items: center;
+}
+.middlegraphdiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  color: #667085;
+}
+.thirdDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #b6b7b7;
+  border-radius: 8px;
+  background-color: #fff8f4;
+  margin-top: 25px;
+  height: 500px;
+}
+.thirdDivhead {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.thirdDivBtndiv {
+  display: flex;
+  gap: 10px;
+}
+.tableCell {
+  font-size: 15px !important;
+  font-family: "Ledger" !important;
+  font-weight: 600 !important;
+}
+.tableCellrow {
+  font-size: 15px !important;
+  font-family: "Ledger" !important;
+}
+.tableCellbody {
+  height: 300px !important;
+}

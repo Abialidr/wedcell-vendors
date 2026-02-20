@@ -1,0 +1,419 @@
+.student_main1 {
+  margin: 0px 40px;
+}
+
+.under_contact_box {
+  width: 45%;
+}
+
+.student_main .image {
+  height: 500px;
+  object-fit: contain;
+}
+.student_main .main_box {
+  margin: auto;
+  margin-top: 70px;
+}
+.student_main .contact_box {
+  background: #ffdbd3 !important;
+  box-shadow: 0px 0px 22px 6px rgba(0, 0, 0, 0.15);
+  padding: 103px 120px 32px 69px;
+  border-radius: 10px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.student_main .details {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+  margin-bottom: 34px;
+}
+.student_main .details p {
+  color: #b4245d;
+  font-size: 33px;
+  font-weight: 700;
+}
+.student_main .girl_img {
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.student_main .girl_img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 24px;
+}
+.student_main .data_box {
+  background: #ffffff;
+  box-shadow: 0px 0px 29.2679px 7.98214px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 63px 64px 50px 35px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 42px;
+  margin-bottom: 94px;
+}
+.data_box button {
+  background: linear-gradient(180deg, #c53244 0%, #b4245d 100%) !important;
+  color: white !important;
+  font-size: 22px !important;
+  font-family: 'Poppin';
+  font-weight: 600;
+}
+.data_box .height {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.data_box .height .data {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.data_box .height button {
+  font-size: 25px;
+}
+
+.data_box .data p {
+  font-size: 33.2589px;
+}
+.column_data {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .student_main .data_box {
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .data_box .height button {
+    font-size: 23px;
+  }
+
+  .data_box .data p {
+    font-size: 25px;
+  }
+
+  .logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  .under_contact_box {
+    width: 100%;
+  }
+  .student_main .contact_box {
+    flex-wrap: wrap;
+    gap: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .student_main .data_box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 40px;
+  }
+
+  .data_box .height button {
+    font-size: 25px;
+  }
+
+  .data_box .data p {
+    font-size: 33px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .under_contact_box {
+    width: 100%;
+  }
+  .student_main .contact_box {
+    flex-wrap: wrap;
+    gap: 0px !important;
+  }
+
+  .student_main .details {
+    display: flex;
+    align-items: start;
+    gap: 43px;
+    margin-bottom: 34px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .student_main .data_box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .data_box .height button {
+    font-size: 20px;
+    min-width: 150px !important;
+    min-height: 50px !important;
+    border-radius: 10px;
+  }
+
+  .data_box .data p {
+    font-size: 25px;
+  }
+
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
+
+  .under_contact_box {
+    width: 100%;
+  }
+  .student_main .contact_box {
+    flex-wrap: wrap;
+    gap: 0px !important;
+    padding: 100px 20px 20px;
+  }
+
+  .student_main .details {
+    display: flex;
+    align-items: start;
+    gap: 43px;
+    margin-bottom: 34px;
+  }
+
+  .student_main .details p {
+    font-size: 25px;
+  }
+
+  .student_main .girl_img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+  }
+  .student_main .main_box {
+    margin: auto;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .student_main .data_box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .data_box .height button {
+    font-size: 20px;
+    min-width: 150px !important;
+    min-height: 50px !important;
+    border-radius: 10px;
+  }
+
+  .data_box .data p {
+    font-size: 25px;
+  }
+
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
+
+  .under_contact_box {
+    width: 100%;
+  }
+  .student_main .contact_box {
+    flex-wrap: wrap;
+    gap: 0px !important;
+    padding: 100px 20px 20px;
+  }
+
+  .student_main .details {
+    display: flex;
+    align-items: start;
+    gap: 43px;
+    margin-bottom: 34px;
+  }
+
+  .student_main .details p {
+    font-size: 25px;
+  }
+
+  .student_main .girl_img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+  }
+  .student_main .main_box {
+    margin: auto;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .student_main1 {
+    margin: 0px 15px;
+  }
+
+  .student_main .data_box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .data_box .height button {
+    font-size: 15px;
+    min-width: 150px !important;
+    min-height: 50px !important;
+    border-radius: 10px;
+  }
+
+  .data_box .data p {
+    font-size: 20px;
+  }
+
+  .logo {
+    height: 25px;
+    width: 25px;
+  }
+
+  .under_contact_box {
+    width: 100%;
+  }
+  .student_main .contact_box {
+    flex-wrap: wrap;
+    gap: 0px !important;
+    padding: 100px 20px 20px;
+  }
+
+  .student_main .details {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 34px;
+  }
+
+  .student_main .details p {
+    font-size: 20px;
+  }
+
+  .student_main .girl_img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+  }
+  .student_main .main_box {
+    margin: auto;
+    margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .student_main1 {
+    margin: 0px 15px;
+  }
+  .student_main .image {
+    height: 300px;
+    object-fit: contain;
+  }
+  .student_main .data_box {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .data_box .height button {
+    font-size: 10px;
+    min-width: 100px !important;
+    min-height: 25px !important;
+    border-radius: 5px;
+  }
+
+  .data_box .data p {
+    font-size: 15px;
+  }
+
+  .logo {
+    height: 25px;
+    width: 25px;
+  }
+
+  .under_contact_box {
+    width: 100%;
+  }
+  .student_main .contact_box {
+    flex-wrap: wrap;
+    gap: 0px !important;
+    padding: 100px 20px 20px;
+  }
+
+  .student_main .details {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .student_main .details p {
+    font-size: 15px;
+  }
+
+  .student_main .girl_img {
+    height: 200px;
+  }
+
+  .student_main .girl_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+  .student_main .main_box {
+    margin: auto;
+    margin-top: -100px;
+  }
+  .column_data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .student_main .data_box {
+    flex-direction: column;
+    gap: 40px;
+  }
+} */
+
+/* @media only screen and (max-width: 650px) {
+  .data_box .data p {
+    font-size: 25px;
+  }
+  .student_main .details p {
+    color: #7a39cc;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .logo{
+    height: 40px;
+    width: 40px;
+  }
+} */

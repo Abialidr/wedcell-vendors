@@ -1,0 +1,37 @@
+.cr_container{
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.cr_img_wrapper{
+    width: 100%;
+    height: 240px;
+}
+
+
+
+.cr_info{
+    width: 50%;
+    text-align: center;
+    padding-block: 1rem;
+    border-right:1px solid #e6e5e7;
+}
+
+.br_top
+{
+    
+    border-top: 1px solid #e6e5e7;
+}
+
+
+.carousel_item{
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .cr_container{
+        margin-inline: auto !important;
+    }
+}

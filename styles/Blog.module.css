@@ -1,0 +1,38 @@
+.blog_hero_continer{
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://www.wedcell.com/assets/front/images/page-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 5rem;
+    display: grid;
+    align-items: center;
+}
+
+.hero_title{
+    font-size: 3rem;
+    width: max-content;
+    position: relative;
+}
+
+.hero_title::after{
+    content:'';
+    position: absolute;
+    height: 100%;
+    left: -20px;
+    border-right: 3px solid #fff;
+}
+
+.blog_card_img_wrapper{
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.recent_img_wrapper
+{
+    overflow: hidden;
+    position: relative;
+    width: 106px;
+    height: 90px;
+}

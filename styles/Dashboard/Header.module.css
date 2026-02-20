@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  top: env(safe-area-inset-top);
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 200;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.08);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.header::before{
+  content: "";
+  position: fixed;
+  height: env(safe-area-inset-top);
+  width: 100%;
+  background-color: white;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}

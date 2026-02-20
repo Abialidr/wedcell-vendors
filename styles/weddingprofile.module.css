@@ -1,0 +1,247 @@
+.Card {
+  margin-top: 3%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 524px) {
+  .Card {
+   
+  }
+}
+
+.CoupleD {
+  width: 60%;
+  height: 400px;
+  width: 75%;
+  align-items: center;
+  display: flex;
+  padding-left: 2%;
+  border-radius: 9px;
+  background-color: rgb(224, 224, 231);
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .CoupleD {
+    display: grid;
+    position: relative;
+    
+    width: 43vh;
+    height: 50vh;
+    text-align: center;
+    padding-top: 10%;
+    
+  }
+}
+
+.TextArea {
+  display: grid;
+  flex-direction: row;
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.5rem;
+
+}
+
+
+
+@media screen and (max-width: 524px) {
+  .TextArea {
+    padding-bottom: 100%;
+    margin-left: 5%;
+    
+  }
+
+}
+
+.TextAreas {
+ 
+  display: grid;
+  flex-direction: row;
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 10%;
+
+}
+
+@media screen and (max-width:524px) {
+    .TextAreas {
+        /* padding-left: 30%; */
+        margin-top: -%;
+        visibility: visible;
+        padding-bottom: 110%;
+        margin-left: 50%;
+        
+    }
+  
+}
+
+
+
+
+
+.location {
+   display: flex;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:524px) {
+  .location {
+    display: flex;
+    position: absolute;
+    margin-left: 2%;
+    font-size: 1.5rem;
+  }
+  
+}
+
+.date {
+  display: flex;
+  position: absolute;
+  /* margin-left: 10%; */
+  margin-top: 6%;
+  font-size: 1.5rem;
+}
+
+.Image {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  margin-left: 15%;
+  border-radius: 9px;
+}
+
+@media screen and (max-width: 524px) {
+  .Image {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 43.2vh;
+    margin-left: -1%;
+    padding-top: 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Card {
+    display: grid;
+    flex-direction: row;
+    position: relative; 
+  }
+}
+
+.decard {
+  padding-left: -5%;
+}
+
+.containers {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.container2 {
+  gap: 2rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 3%;
+  align-items: center;
+  height: 200px;
+  width: 70%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 9px;
+  background-color: rgb(251, 251, 251);
+}
+
+.buttongroup {
+  display: grid;
+  position: absolute;
+  gap: 1rem;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .container2 {
+    display: grid;
+    position: relative;
+    align-items: center;
+    row-gap: 0.5rem;
+    margin-top: 8%;
+    height: 400px;
+    width: 65%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 9px gray;
+  }
+}
+
+.Cardv {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 150px;
+  width: 20%;
+  border-radius: 14px;
+  box-shadow: 2px 2px 12px rgb(28, 100, 158);
+}
+
+@media screen and (max-width: 500px) {
+  .Cardv {
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 80px;
+    width: 250%;
+    justify-content: center;
+    border-radius: 14px;
+    box-shadow: 2px 2px 7px rgb(160, 160, 168);
+    row-gap: 2rem;
+    margin-left: -75%;
+  }
+}
+
+.profilecontainer {
+  margin-top: 5%;
+}
+
+
+
+.wedtitle {
+  position: relative;
+  left: 3.1%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+letter-spacing: -0.04em;
+color: #000000;
+
+opacity: 0.8;
+
+}
+
+@media screen and (max-width:600px) {
+  .wedtitle {
+    font-size: 16px;
+  }
+  
+}
+
+.similarwedtitle {
+max-width: 100%;
+overflow: hidden;
+}

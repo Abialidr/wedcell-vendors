@@ -1,0 +1,164 @@
+.containertwo {
+  overflow: hidden;
+}
+
+@media screen and (max-width:600px) {
+    .containertwo {
+        visibility: hidden;
+
+    }
+    
+}
+
+
+
+.ProfilesContainer {
+  gap: 2rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 3%;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  border-radius: 12px;
+  /* box-shadow: 2px 2px 9px; */
+}
+
+@media screen and (max-width: 500px) {
+    .ProfilesContainer {
+      display: flex;
+      width: 100%;
+      /* position: relative; */
+      align-items: center;
+      justify-content: center;
+      align-content: ;
+      /* row-gap: 0.5rem; */
+      margin-top: 8%;
+     height: 300px;
+     overflow-x:scroll ;
+      border-radius: 12px;
+
+    }
+  }
+  
+
+
+.CardProfile {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  width: 22rem;
+  height: 314px;
+  border-radius: 14px;
+  overflow: hidden;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  top: -15%;
+  
+}
+
+@media screen and (max-width: 500px) {
+  .CardProfile{
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+    justify-content: center;
+    border-radius: 14px;
+    box-shadow: 2px 2px 7px rgb(160, 160, 168);
+    row-gap: 2rem;
+   
+  }
+}
+
+.pictureone {
+  overflow: hidden;
+  width: 9.6rem;
+  position: absolute;
+  height: 230.45px;
+  top: 0;
+  left: 0;
+  background-color: green;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.secondpicture {
+  overflow: hidden;
+  position: absolute;
+  width: 138px;
+  height: 136.23px;
+  right: 0;
+  top: 0;
+
+  background-color: black;
+  border-radius: 0px 5px 0px;
+}
+
+.thirdpicture {
+  position: absolute;
+  width: 138px;
+  height: 82.87px;
+  right: 0%;
+  top: 150px;
+  
+  overflow: hidden;
+}
+
+.allpictures {
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  top: 40%;
+  left: 10%;
+}
+
+.profiletitle {
+    position: absolute;
+    width: 187px;
+    height: 24px;
+    text-align: center;
+    top: 240px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.location {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 85%;
+    left: 35%;
+    opacity: 0.7;    
+}
+
+.city {
+  position: absolute;
+width: 79px;
+height: 22px;
+left: 45%;
+top: 84.5%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: -0.04em;
+color: #000000;
+opacity: 0.8;
+}

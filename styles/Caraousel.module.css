@@ -1,0 +1,40 @@
+.btn_container{
+    position: absolute;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 50%;
+}
+
+
+
+.custom_btn{
+    width: 40px;
+    height: 40px;
+    background:var(--primary-color);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: none;
+    transition:all 450ms;
+    color: #fff;
+    z-index: 20;
+}
+
+.custom_btn:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+
+@media (max-width:768px) {
+    .btn_container{
+        justify-content: center;
+        gap: 2rem;
+        bottom: 0;
+        transform: translateY(0);
+        top: auto;
+    }
+}

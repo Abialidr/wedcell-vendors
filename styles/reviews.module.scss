@@ -1,0 +1,194 @@
+.hello {
+  font-size: 30px;
+}
+.mainReviewBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 5% !important;
+  padding-right: 15%;
+  margin-top: 5%;
+  padding-top: 30px;
+  border-top: 1px solid grey;
+  gap: 20px;
+  background-color: white;
+}
+.ReviewContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ReviewUser {
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  > article {
+    display: flex;
+    gap: 10px;
+    > h6 {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      align-items: start;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: left;
+      color: #5a5a5a;
+
+      > span {
+        font-family: Poppins;
+        font-size: 10.73px;
+        font-weight: 400;
+        text-align: left;
+        color: #5a5a5a;
+      }
+    }
+  }
+}
+.ReviewUser h6 {
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 19px;
+}
+.ReviewCountryDate {
+  font-size: 14px;
+  color: rgba(72, 72, 72, 0.834);
+}
+.ReviewSpan span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.9px;
+  text-align: justified;
+  color: #5a5a5a;
+}
+.ReviewStar {
+  margin-top: -10px;
+  margin-bottom: -7px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.ReviewStar span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: justified;
+  color: #333333;
+}
+.Viewbtn {
+  font-size: 14px;
+}
+.Viewbtn1 {
+  font-size: 14px;
+  padding: 6px 20px;
+  border-radius: 50px;
+  border: 1px solid #b6255a;
+  color: #b6255a;
+}
+.Viewbtn:hover {
+  color: #b6255a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.ReplyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+.ReplyContainer .ReviewUser h6 {
+  font-size: 17px;
+}
+.ReplyContainer .ReviewCountryDate {
+  margin-top: -5px;
+}
+.tagImg {
+  width: 50px;
+  transform: rotate(270deg);
+  height: 100px;
+}
+.exclusive {
+  margin-bottom: 13px;
+  background: #f36541;
+
+  width: 140px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 0px 20px 20px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #f5df96;
+  position: relative;
+
+  > :nth-child(1) {
+    display: none;
+  }
+  span {
+    width: 85px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+  > img {
+    width: 17px;
+  }
+
+  &:before {
+    content: '\A';
+    border-style: solid;
+    border-width: 0px 8px 6px 0;
+    border-color: transparent #e5795e transparent transparent;
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+  }
+}
+.exclusivecontainer {
+  position: relative;
+  margin-bottom: 10px;
+}
+.star2 {
+  height: 20px;
+  width: 20px;
+  top: 4.5px;
+  left: 5px;
+  color: #ffffff;
+  width: 20px;
+}
+.rectangle {
+  width: 133px;
+  height: 28px;
+}
+.qualitycontainer {
+  grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 900px) {
+  .qualitycontainer {
+    gap: 0px;
+  }
+  .exclusivecontainer {
+    margin: 0px;
+  }
+}

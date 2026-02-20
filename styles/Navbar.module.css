@@ -1,0 +1,141 @@
+.input_container {
+  width: 100%;
+  max-width: 350px;
+  padding-inline: 10px;
+  padding-block: 6px;
+}
+
+.dropdown {
+  padding: 1rem;
+  min-width: 280px;
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  top: 50px;
+  transition: all 450ms;
+  visibility: hidden;
+  opacity: 0;
+  color: #000;
+}
+
+.top_nav_container {
+  display: block;
+}
+
+.search_wrapper {
+  border-radius: 50%;
+  background-color: #fff;
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  box-shadow: 1px 2px 6px 0 rgb(0 0 0 / 50%);
+  font-size: 1.5rem;
+}
+
+.nav_link {
+  cursor: pointer;
+  padding-inline: 0.7rem;
+  font-size: 1.1rem;
+}
+
+.nav_link:hover .dropdown {
+  transition: all 450ms;
+  opacity: 1;
+  visibility: visible;
+}
+
+.chevron {
+  transform: rotate(0);
+  transition: all 450ms;
+}
+
+.nav_link:hover .chevron {
+  transform: rotate(180deg);
+  transition: all 450ms;
+}
+
+.dropdown_link {
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 450ms;
+  display: block;
+  padding-block: 0.5rem;
+  font-weight: 500;
+}
+
+.dropdown_link:hover {
+  color: var(--primary-color);
+}
+
+.drop_center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.d_links_wrapper {
+  padding-inline: 32px;
+}
+
+.hamburger_container {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  font-size: 1rem;
+}
+
+.sidebar_container {
+  width: 60%;
+  position: fixed;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0);
+  padding-block: 1rem;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.links_container {
+  font-size: 1rem;
+  padding-inline: 1.5rem;
+  cursor: pointer;
+}
+
+.links_container:hover .dropdown {
+  transition: all 450ms;
+  opacity: 1;
+  visibility: visible;
+  min-width: 220px !important;
+}
+
+.links_container .icon {
+  font-size: 2rem;
+  transform: rotate(0);
+  transition: all 450ms;
+}
+
+.links_container:hover .icon {
+  transform: rotate(180deg);
+  transition: all 450ms;
+}
+
+.search_dropdown {
+  border-radius: 6px;
+  background-color: white;
+  margin-top: 14px;
+  /* min-width: 25%;    
+    max-width: 100%; */
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .search_wrapper {
+    display: none;
+  }
+
+  .input_container {
+    max-width: none;
+  }
+}

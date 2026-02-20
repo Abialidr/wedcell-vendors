@@ -1,0 +1,444 @@
+.leadMain {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  padding: 30px 0px;
+  gap: 20px;
+}
+.leadMain hgroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leadMain hgroup img {
+  width: 20px;
+  cursor: pointer;
+}
+.leadMain span {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.leadMain article {
+  display: flex;
+  gap: 10px;
+}
+.leadMain article select {
+  width: 100px;
+  padding: 8px 7px;
+  background: #f0f0f5;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 1px solid #00000033;
+}
+.buttonDiv {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonDiv button {
+  background: #b6255a;
+  padding: 8px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
+.EnterLead {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+}
+.EnterLead hgroup {
+  width: 90%;
+  font-size: 15px;
+  font-weight: 500;
+}
+.closebtn {
+  position: absolute;
+  width: 20px;
+  right: 14px;
+  top: 12px;
+  cursor: pointer;
+}
+.EnterLead > span {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding: 10px;
+  background: #b6255a;
+  color: white;
+  width: calc(100% + 40px);
+  margin-left: -20px;
+  margin-top: -20px;
+  text-align: center;
+}
+.infoDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background: #1541ec14;
+  border: 1px solid #00000033;
+  border-radius: 8px;
+}
+.left span {
+  display: flex;
+  gap: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+
+  color: #1541ec;
+  margin-bottom: 10px;
+}
+.left span img {
+  width: 17px;
+}
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background: #eeab4b14;
+
+  border: 1px solid #00000033;
+  border-radius: 8px;
+}
+@media (max-width: 900px) {
+  .leadMain span {
+    font-size: 22px;
+  }
+  .leadMain hgroup img {
+    width: 15px;
+  }
+  .buttonDiv {
+    flex-direction: column-reverse;
+    align-items: end;
+  }
+  .buttonDiv button {
+    align-self: center;
+  }
+  .infoDiv {
+    flex-direction: column;
+  }
+  .right {
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+  }
+  .dates {
+    flex-direction: column;
+  }
+  .btnSaves {
+    flex-direction: column;
+    align-items: center;
+  }
+  .EnterLead {
+    padding: 10px;
+  }
+  .EnterLead > span {
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+}
+.right span {
+  display: flex;
+  gap: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+
+  color: #eeab4b;
+  margin-bottom: 10px;
+}
+.right span img {
+  width: 17px;
+  display: none;
+}
+.infoDiv article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.infoDiv article label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  color: #333333;
+}
+.infoDiv article input,
+.infoDiv article select,
+.infoDiv article textarea {
+  resize: none;
+  width: 100%;
+  padding: 8px 10px;
+  border: 0.5px solid #e5e5e5;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.btnSaves {
+  display: flex;
+  gap: 10px;
+}
+.btnSaves button img {
+  width: 30px;
+}
+.btnSaves > :nth-child(2) {
+  border: 1px solid #b6255a;
+  color: #b6255a;
+  background: white;
+}
+.btnSaves button {
+  border: none;
+  padding: 5px 30px;
+  background: #b6255a;
+  color: white;
+  border-radius: 30px;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+.tableActions {
+  display: flex;
+  align-items: center;
+  gap: 0px !important;
+}
+.tableActions img {
+  width: 20px;
+}
+.tableActions button {
+  border: none;
+  background: none;
+}
+.SetHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+.SetHeader span {
+  font-size: 22px;
+}
+.SetHeader button {
+  width: fit-content;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 0, 199, 1);
+  color: white;
+  border: none;
+}
+.SetHeader button img {
+  width: 12px;
+}
+.tablesdiv {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+}
+.otherSetting {
+  width: 35%;
+  border: 1px solid rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  gap: 5px;
+}
+.otherSetting span {
+  font-size: 22px;
+  padding: 5px 10px;
+}
+.otherSetting p {
+  font-size: 15px;
+  padding: 5px 10px;
+  margin: 0;
+}
+.otherSetting p:nth-child(2n) {
+  background-color: rgba(245, 245, 245, 1);
+}
+.SystemChanges {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 15px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+.SystemChanges span {
+  font-size: 22px;
+}
+.SystemChanges article button {
+  width: fit-content;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 0, 199, 1);
+  color: white;
+  border: none;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+.inputs article {
+  display: flex;
+  align-items: center;
+}
+.inputs article label {
+  width: 30%;
+  font-size: 15px;
+  font-weight: 500;
+}
+.inputs article input {
+  width: 70%;
+  padding: 8px 10px;
+  border: 1px solid rgba(100, 100, 100, 1);
+}
+.btnSaves1 {
+  display: flex;
+  justify-content: center;
+}
+.btnSaves1 button {
+  width: fit-content;
+  padding: 5px 10px;
+  font-size: 15px;
+  gap: 10px;
+  background: rgba(255, 0, 199, 1);
+  color: white;
+  border: none;
+  width: 70%;
+}
+.dates {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  background: #ecf0fd;
+  border: 1px solid #00000033;
+  border-radius: 8px;
+  padding: 20px 9px;
+  gap: 10px;
+  margin-top: -10px;
+}
+.dates article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dates article label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  color: #333333;
+}
+.dates article input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 0.5px solid #e5e5e5;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.dates article select {
+  width: 100%;
+  padding: 9px 10px;
+  border: 0.5px solid #e5e5e5;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f6f8;
+  border-radius: 6px;
+  padding: 8px 20px;
+}
+.pagination span {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.14000000059604645px;
+  text-align: left;
+  align-items: center;
+}
+.pagination article {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: -0.14000000059604645px;
+  text-align: left;
+}
+.pagination article > :nth-child(1) {
+  transform: rotate(180deg);
+}
+.pagination article hgroup {
+  background: #ffffff;
+  width: 44.69px;
+  height: 29.61px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.pagination article img {
+  cursor: pointer;
+}
+.pagination article span {
+  margin-left: -6px;
+  cursor: pointer;
+}

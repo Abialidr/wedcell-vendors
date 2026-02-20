@@ -1,0 +1,375 @@
+.cards-containerone {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+}
+
+.containermain {
+  flex-wrap: wrap !notimportant;
+}
+
+.card {
+  /* box-sizing: border-box;
+  width: 294px;
+  height: 440px;
+  left: 42px;
+  top: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 5px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+
+
+.cardcontainer {
+  width: 20rem;
+  height: 470px;
+}
+
+@media screen and (max-width: 524px) {
+  .cardcontainer {
+    max-width: 50%;
+  }
+}
+
+.cardimg {
+  width: 20rem;
+  height: 370px;
+  /* margin-left: -4%; */
+  position: relative;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  background-color: lavender;
+}
+
+@media screen and (max-width: 524px) {
+  .cardimg {
+    width: 23.375rem;
+    height: 460px;
+    margin-left: -5%;
+  }
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 524px) {
+  .img {
+    height: 300px;
+    max-width: 100%;
+  }
+}
+
+.cardscontainer {
+  /* background-color: black; */
+}
+
+@media screen and (max-width: 524px) {
+  .cardcontainer {
+    max-width: 100%;
+    height: 560px;
+    margin-bottom: -30%;
+  }
+}
+
+.filterContainer {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.filterbtns {
+  box-sizing: border-box;
+  width: 167px;
+  height: 35px;
+  left: 334px;
+  top: 140px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.containerf {
+  position: ;
+  display: grid;
+  flex-direction: row;
+}
+
+.productContainer {
+  width: 296px;
+  height: 40rem;
+}
+
+.addtocart {
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  border-radius: 5px;
+  background: #681212;
+  opacity: 0.9;
+  border: 1px solid #681212;
+
+  border-radius: 0px 0px 5px 5px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  left: 0;
+  bottom: 0;
+  color: white;
+}
+
+@media screen and (max-width: 524px) {
+  .addtocart {
+    width: 100%;
+    height: 43px;
+    position: relative;
+    background: #681212;
+    opacity: 0.9;
+    border-radius: 0px 0px 5px 5px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    left: 0;
+    bottom: 0;
+    color: white;
+  }
+}
+
+.carticon {
+  /* background: #FFFFFF; */
+  background-color: transparent;
+  margin-left: -3%;
+  color: white;
+}
+
+.wishlistbtn {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  top: 10px;
+  z-index: 10;
+  width: 42px;
+  height: 42px;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  background-color: #f57171;
+  color: #f6e6e6;
+  box-sizing: border-box;
+  border: 0.1px solid #f7e6e6;
+  border-radius: 50%;
+  display: flex;
+}
+
+.cardtitle {
+  position: absolute;
+  top: 9%;
+  height: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.182rem;
+  line-height: 22px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+@media screen and (max-width: 524px) {
+  .cardtitle {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* text-align: center; */
+    /* margin-top: -40%; */
+    letter-spacing: -0.04em;
+
+    color: #000000;
+  }
+}
+
+.infocontainer {
+  position: absolute;
+  width: 100%;
+  /* background-color: lavender; */
+  height: 100px;
+  overflow: ;
+  /* background-color: rgb(229, 229, 234); */
+  /* background-color: lavender; */
+}
+
+@media screen and (max-width: 524px) {
+  .infocontainer {
+    /* display: grid; */
+    text-align: left;
+    left: 1%;
+
+    /* margin-top: -%; */
+    width: 294px;
+    position: relative;
+  }
+}
+
+.pricetag {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  gap: 0.5rem;
+  display: flex;
+  margin-left: 1%;
+  position: absolute;
+  top: 33%;
+}
+
+@media screen and (max-width: 524px) {
+  .pricetag {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    gap: 1rem;
+    display: flex;
+    margin-left: 2.5%;
+  }
+}
+
+.CardDescription {
+  height: 100px;
+}
+
+.sizes {
+  position: absolute;
+  width: 30px;
+  height: 17px;
+  top: 66%;
+  display: flex;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+@media screen and (max-width: 524px) {
+  .sizes {
+    display: flex;
+    line-height: 17px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 2%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    max-width: 70%;
+  }
+}
+
+.availablesizes {
+  border: none;
+  background: none;
+  background-color: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: -6%;
+  color: black;
+}
+
+@media screen and (max-width: 524px) {
+  .availablesizes {
+    margin: 0;
+    margin-left: -4.2%;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .firstcontainer {
+    display: grid;
+
+    max-width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .secondcontainer {
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
+    /* margin-left: 1%; */
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .mobilewidth {
+    max-width: 95%;
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .sizecontainer {
+    max-width: 95%;
+  }
+}
+
+.ratings {
+  display: flex;
+  gap: 0.5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  color: #acc800;
+  opacity: 0.8;
+  position: absolute;
+  top: 85%;
+}
+
+.staricon {
+  color: #acc800;
+}
+
+@media screen and (max-width: 524px) {
+  .ratings {
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 5px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

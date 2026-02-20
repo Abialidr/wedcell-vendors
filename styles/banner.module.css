@@ -1,0 +1,20 @@
+@media only screen and (max-width:500px) {
+    .bannerContent {
+        /* top: 240px;     */
+        
+        boxSizing: "border-box";
+        width: "169px";
+        height: "162px";
+        position: "absolute";
+        background: "rgba(104, 18, 18, 0.8)";
+        border: "0.5px solid #FFFCFC";
+        borderRadius: "27px";
+        bottom: "100px";
+        left: "50px";
+        color: "white";
+        alignItems: "center";
+        lineHeight: "16px";
+        opacity: "0.5";
+
+    }
+}

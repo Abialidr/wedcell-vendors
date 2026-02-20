@@ -1,0 +1,388 @@
+.RevCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  @media (max-width: 900px) {
+    padding: 0px;
+  }
+}
+.DetailCard {
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #00000033;
+}
+.ImgContainer {
+  width: 40%;
+  padding: 10px;
+  @media (max-width: 900px) {
+    width: 100%;
+    position: relative;
+    height: 300px;
+  }
+}
+.ImgContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.WrittenDetail {
+  width: 60%;
+  padding: 10px;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+  h4 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: -0.14000000059604645px;
+    text-align: left;
+    color: #333333;
+    @media (max-width: 900px) {
+      font-size: 18px;
+    }
+  }
+  > p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin: 0;
+    margin: 5px 0px;
+    align-items: center;
+    @media (max-width: 900px) {
+      font-size: 14px;
+    }
+    > span {
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 27px;
+      text-align: left;
+      @media (max-width: 900px) {
+        font-size: 12px;
+      }
+    }
+    > hgroup {
+      font-family: Poppins;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 33px;
+      text-align: left;
+      color: #b6255a;
+      @media (max-width: 900px) {
+        font-size: 18px;
+      }
+    }
+  }
+}
+.exclusive1 {
+  margin-bottom: 13px;
+  background: #f36541;
+
+  width: 120px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 0px 20px 20px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #f5df96;
+  position: relative;
+  @media (max-width: 900px) {
+    display: none;
+  }
+  span {
+    width: 65px;
+  }
+  > img {
+    width: 17px;
+  }
+
+  &:before {
+    content: '\A';
+    border-style: solid;
+    border-width: 0px 8px 6px 0;
+    border-color: transparent #e5795e transparent transparent;
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+  }
+}
+.exclusive2 {
+  margin-bottom: 13px;
+  background: #f36541;
+  @media (min-width: 901px) {
+    display: none;
+  }
+  position: absolute;
+  bottom: 8px;
+  left: 2px;
+  width: 120px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 0px 20px 20px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  color: #f5df96;
+  span {
+    width: 65px;
+  }
+  > img {
+    width: 17px;
+    border-radius: 0px;
+    object-fit: contain;
+  }
+
+  &:before {
+    content: '\A';
+    border-style: solid;
+    border-width: 0px 8px 6px 0;
+    border-color: transparent #e5795e transparent transparent;
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+  }
+}
+
+.instock {
+  font-size: 16px;
+  font-weight: 500;
+}
+.outofstock {
+  color: #b6255a;
+  font-size: 13px;
+}
+.Cats {
+  display: flex;
+  font-size: 16px;
+}
+.Heads {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.hello {
+  font-size: 30px;
+}
+.mainReviewBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 13%;
+  padding-right: 15%;
+  margin-top: 5%;
+  padding-top: 30px;
+  border-top: 1px solid grey;
+  gap: 20px;
+}
+.ReviewContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ReviewUser {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+}
+.ReviewUser h6 {
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 19px;
+}
+.ReviewCountryDate {
+  font-size: 14px;
+  color: rgba(72, 72, 72, 0.834);
+}
+.ReviewSpan span {
+  font-size: 15px;
+  line-break: anywhere;
+}
+.ReviewStar {
+  margin-top: -10px;
+  margin-bottom: -7px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.Viewbtn {
+  font-size: 14px;
+}
+.Viewbtn1 {
+  font-size: 14px;
+  padding: 6px 20px;
+  border-radius: 50px;
+  border: 1px solid #b6255a;
+  color: #b6255a;
+  width: fit-content;
+  display: flex;
+  margin-top: 10px;
+}
+.Viewbtn:hover {
+  color: #b6255a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.ReplyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 50px;
+}
+.ReplyContainer .ReviewUser h6 {
+  font-size: 17px;
+}
+.ReplyContainer .ReviewCountryDate {
+  margin-top: -5px;
+}
+.btndiv {
+  display: flex;
+  gap: 15px;
+}
+.ReviewCard {
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  align-self: center;
+  background: #f5f5f5;
+  border-radius: 6px;
+  @media (max-width: 900px) {
+    padding: 10px;
+  }
+}
+
+.popupcontainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  @media (max-width: 900px) {
+    width: 95%;
+  }
+}
+.ReviewContainer {
+  > article {
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+  }
+}
+.popupcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > div {
+    width: 100%;
+  }
+  h4 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    background: #b6255a;
+    width: 100%;
+    padding: 10px;
+    color: white;
+  }
+  textarea {
+    background: #f2f2f2;
+    border: 0.5px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  .ReviewContainer {
+    flex-direction: row;
+    > article {
+      background: white;
+    }
+    .ReviewUser {
+      flex-direction: column;
+      align-items: start;
+      gap: 0px;
+      h6 {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 25.83px;
+        text-align: left;
+        color: #5a5a5a;
+        margin: 0;
+        padding: 0;
+      }
+      > span {
+        font-family: Poppins;
+        font-size: 10.73px;
+        font-weight: 400;
+        line-height: 16.09px;
+        text-align: left;
+        color: #5a5a5a;
+      }
+      > div {
+        > span {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 28.9px;
+          text-align: justified;
+          color: #5a5a5a;
+        }
+      }
+    }
+  }
+}
+.popupClosebtn {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.popupClosebtn:hover {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+@media (max-width: 900px) {
+  .DetailCard {
+    flex-direction: column;
+  }
+}
+@media (max-width: 450px) {
+  .ImgContainer > img {
+    width: 100% !important;
+  }
+}

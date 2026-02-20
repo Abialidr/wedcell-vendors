@@ -1,0 +1,10 @@
+.services_container{
+    max-width: 1038px;
+    margin-inline: auto;
+    box-shadow: 1px 2px 6px 0 rgb(0 0 0 / 16%);
+    padding: 24px 32px 32px 32px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+}

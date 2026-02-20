@@ -1,0 +1,232 @@
+.Container {
+  height: 1000px;
+}
+
+.DetailsContainer {
+  /* display: flex;
+  position: relative;
+  justify-content: center; */
+}
+
+.decard {
+  padding-left: 2%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+
+@media screen and (max-width:524px) {
+  .decard {
+    display: flex;
+    position: relative;
+
+  }
+
+}
+
+
+@media screen and (max-width:524px) {
+  .DetailsContainer {
+    display: grid;
+    position: relative;
+    align-items: center;
+    row-gap: 0.5rem;
+    margin-top: 8%;
+    height: 400px;
+    width: 65%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 9px gray;
+  }
+
+}
+
+
+
+.Detailed {
+
+  height: 1200px;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .Detailed {}
+}
+
+.SwipeC {
+  width: 55%;
+  margin-left: 1%;
+
+}
+
+@media screen and (max-width:524px) {
+  .SwipeC {
+    width: 100%;
+
+  }
+
+}
+
+
+.Swiper {
+  margin-top: 1%;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  position: relative;
+  height: 480px;
+  margin-left: 0.5%;
+}
+
+.SwiperContainer {
+  height: 600px;
+  background-color: lavender;
+  /* height: 100%; */
+  max-width: 100%;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.DetailsI {
+  background-color: rgb(227, 223, 223);
+
+  width: 42%;
+  margin-left: 57%;
+  margin-top: -32.5%;
+  border-radius: 12px;
+  padding-left: 2.5%;
+  padding-top: 2%;
+  font-size: 2rem;
+  font-style: italic;
+
+}
+
+@media screen and (max-width:524px) {
+  .DetailsI {
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
+  }
+
+}
+
+.divider {
+  margin-top: 50%;
+  margin-left: -2%;
+  width: 100%;
+}
+
+.id {
+  font-size: 1rem;
+  padding-left: 5%;
+
+}
+
+.input {
+  display: flex;
+  width: 50%;
+  margin-top: 10%;
+}
+
+@media screen and (max-width:524px) {
+  .input {
+    display: flex;
+    width: 80%;
+  }
+
+}
+
+.title {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.products {
+  font-size: 43;
+  font-weight: 800;
+
+
+}
+
+.green {
+  background-color: green;
+  border-radius: 20px;
+}
+
+.blue {
+  background-color: rgb(25, 25, 225);
+  border-radius: 20px;
+}
+
+.maroon {
+  background-color: maroon;
+  border-radius: 20px;
+}
+
+.lavender {
+  background-color: rgb(209, 194, 199);
+  border-radius: 20px;
+}
+
+
+
+.ImagesContainer {
+  /* gap: 0.5rem; */
+  display: flex;
+  justify-content: center;
+  width: 440px;
+  margin-left: 12%;
+  overflow-x: scroll;
+
+}
+
+.ImagesContainer .Img {
+  margin: 10px;
+  width: 7rem;
+  height: 7rem;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:600px) {
+  .ImagesContainer {
+    visibility: hidden;
+    display: block;
+  }
+}
+
+
+.mysimilar {
+  display: flex;
+  gap: 2rem;
+  overflow: scroll;
+  margin: 20px;
+}
+
+.mainsimilar {
+  width: 190px;
+}
+
+.simimagDiv {
+  width: 190px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simimagDiv img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.simtitle,
+.simprice {
+  font-size: 15px;
+  padding: 5px 0;
+}

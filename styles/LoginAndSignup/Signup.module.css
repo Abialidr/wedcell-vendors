@@ -1,0 +1,225 @@
+.OneAboveAll {
+  margin-top: 100px;
+  width: 100%;
+}
+.mainDiv {
+  display: flex;
+  font-family: "Ledger";
+  /* align-items: center; */
+  width: 80%;
+}
+.imgDiv {
+  width: 50%;
+}
+.loginImg {
+  width: 100%;
+}
+.loginFormmaindiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.loginFormdiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #666666;
+  border-radius: 25px;
+}
+.upperDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.Circeldiv {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+.WelcomeBackspan {
+  font-size: 25px;
+}
+.infoSpan {
+  width: 60%;
+  text-align: justify;
+}
+.Mainform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.checkBoxdiv {
+  display: flex;
+  align-items: start;
+  font-size: 14px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.checkBoxdiv input {
+  margin-top: 2px;
+}
+.loginBtn {
+  padding: 7px;
+  font-size: 17px;
+  background-color: #b7265a;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+.loginBtn1 {
+  padding: 7px;
+  font-size: 17px;
+  background-color: #ffffff;
+  color: #b7265a;
+  border: 1px solid #b7265a;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+.Ordiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.Ordiv div {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.GoogleAndAppleBtndiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.GoogleAndAppleBtndiv button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+  font-size: 15px;
+  border: 1px solid #33333398;
+  border-radius: 50px;
+  color: #333333b4;
+  background: none;
+}
+.CreateAnAccount {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333333;
+}
+@media (max-width: 1000px) {
+  .mainDiv {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .OneAboveAll {
+    margin-top: 62px;
+  }
+  .loginFormmaindiv {
+    padding: 10px;
+  }
+}
+@media (max-width: 834px) {
+  .imgDiv {
+    display: none;
+  }
+  .loginFormmaindiv {
+    width: 100%;
+  }
+  .loginFormdiv {
+    border: none;
+  }
+  .loginBtn {
+    background-color: #b7265a;
+  }
+  .CreateAnAccount {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}
+.brideGroom {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 10px 12px; */
+  margin-top: 10px;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+.brideGroom span {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-right: 1px solid gray;
+}
+.IamAndPartners {
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px 50px; */
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sidebyside {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sidebyside article {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.IamAndPartners article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 385px) {
+  .IamAndPartners {
+    font-size: 13px;
+  }
+  .sidebyside article {
+    width: 40%;
+  }
+  .ringImg {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .OneAboveAll {
+    width: 85% !important;
+  }
+}
+.allTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mysideImage {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  align-items: center;
+}

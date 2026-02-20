@@ -1,0 +1,40 @@
+.Sidebar_container{
+    padding-block: 1.5rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.08);
+    width: 18vw;
+}
+
+.sidebar_links_wrapper{
+    padding-left: 3.5rem;
+    padding-block: 1rem;
+    position: relative;
+}
+
+.sidebar_icon{
+    font-size: 1.3rem;
+    line-height: 1;
+}
+
+.active{
+    background-color: rgba(247, 245, 245, 0.75);
+    position: relative;
+    color: var(--primary-color);
+}
+
+.active::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 2px;
+    width: 3px;
+    border-radius: 3px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
