@@ -29,7 +29,7 @@ import { Upload } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 import ForgetPassword from '../../pages/forgotPassword';
 import { RiDeleteBin6Line } from 'react-icons/ri';
-import MuiPhoneNumber from 'material-ui-phone-number';
+import { MuiTelInput } from "mui-tel-input";
 
 const VenueRegLogin = () => {
   const dispatch = useDispatch();
@@ -165,26 +165,26 @@ const VenueRegLogin = () => {
               >
                 Mobile No.
               </label>
-              <MuiPhoneNumber
+              <MuiTelInput
                 sx={{ height: '40px' }}
                 value={value}
                 id='outlined-basic'
                 variant='outlined'
                 fullWidth
-                defaultCountry={'in'}
+                defaultCountry={'IN'}
                 onChange={handleChangeNumber}
                 onlyCountries={[
-                  'ae',
-                  'in',
-                  'th',
-                  'lk',
-                  'id',
-                  'ca',
-                  'mv',
-                  'vn',
-                  'kh',
-                  'ph',
-                  'my',
+                  'AE',
+                  'IN',
+                  'TH',
+                  'LK',
+                  'ID',
+                  'CA',
+                  'MV',
+                  'VN',
+                  'KH',
+                  'PH',
+                  'MY',
                 ]}
               />
             </>
@@ -231,10 +231,10 @@ const VenueRegLogin = () => {
           {currState === 0
             ? ''
             : isTimerRunning
-            ? `Resend in ${timer} seconds`
-            : otpSent
-            ? 'Otp Resend Successfully'
-            : 'Resend Otp'}
+              ? `Resend in ${timer} seconds`
+              : otpSent
+                ? 'Otp Resend Successfully'
+                : 'Resend Otp'}
         </button>
         <button
           className={Styles.submitbtnforLogin}

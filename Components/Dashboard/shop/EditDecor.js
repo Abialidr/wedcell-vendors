@@ -46,7 +46,6 @@ import { Spinner } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { selectUser, user } from "../../../redux/reducer/appEssentials";
 import compressAndAppendFiles from "../../compressAndAppendFiles";
-import MuiPhoneNumber from "material-ui-phone-number";
 import { ToastContainer } from "react-toastify";
 import { profileforVendorVal } from "../../../yupValidations/SignupValidation";
 import Steps from "../../Steps";

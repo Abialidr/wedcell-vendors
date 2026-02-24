@@ -6,7 +6,7 @@ import axios from 'axios';
 import { Spinner } from 'react-bootstrap';
 import { user } from '../../redux/reducer/appEssentials';
 import { TextField } from '@mui/material';
-import MuiPhoneNumber from 'material-ui-phone-number';
+import { MuiTelInput } from "mui-tel-input";
 import Styles from '../../styles/Editlist.module.css';
 
 const VenueRegLogin = () => {
@@ -125,25 +125,25 @@ const VenueRegLogin = () => {
               >
                 Mobile No.
               </label>
-              <MuiPhoneNumber
+              <MuiTelInput
                 value={value}
                 id='outlined-basic'
                 variant='outlined'
                 fullWidth
-                defaultCountry={'in'}
+                defaultCountry={'IN'}
                 onChange={handleChangeNumber}
                 onlyCountries={[
-                  'ae',
-                  'in',
-                  'th',
-                  'lk',
-                  'id',
-                  'ca',
-                  'mv',
-                  'vn',
-                  'kh',
-                  'ph',
-                  'my',
+                  'AE',
+                  'IN',
+                  'TH',
+                  'LK',
+                  'ID',
+                  'CA',
+                  'MV',
+                  'VN',
+                  'KH',
+                  'PH',
+                  'MY',
                 ]}
               />
             </>
@@ -190,10 +190,10 @@ const VenueRegLogin = () => {
           {currState === 0
             ? ''
             : isTimerRunning
-            ? `Resend in ${timer} seconds`
-            : otpSent
-            ? 'Otp Resend Successfully'
-            : 'Resend Otp'}
+              ? `Resend in ${timer} seconds`
+              : otpSent
+                ? 'Otp Resend Successfully'
+                : 'Resend Otp'}
         </button>
         <button
           className={Styles.submitbtnforLogin}

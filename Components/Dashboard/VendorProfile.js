@@ -33,7 +33,7 @@ import { Spinner } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { selectUser, user } from "../../redux/reducer/appEssentials";
 import compressAndAppendFiles from "../compressAndAppendFiles";
-import MuiPhoneNumber from "material-ui-phone-number";
+import { MuiTelInput } from "mui-tel-input";
 import { ToastContainer } from "react-toastify";
 import {
   profileforVendorMusicVal,
@@ -574,10 +574,10 @@ const CategotiesListVenue = [
 ];
 const VendorProfile = ({ query }) => {
   const [deleteAlert, setDeleteAlaert] = useState(false);
-  const errorr = () => {};
-  const uploadErrorr = () => {};
-  const uploadSucsess = () => {};
-  const editSucsess = () => {};
+  const errorr = () => { };
+  const uploadErrorr = () => { };
+  const uploadSucsess = () => { };
+  const editSucsess = () => { };
   const [previewOpen, setPreviewOpen] = useState(false);
   const [previewImage, setPreviewImage] = useState("");
   const [previewTitle, setPreviewTitle] = useState("");
@@ -1082,8 +1082,8 @@ const VendorProfile = ({ query }) => {
             form.category === "Music & Dance"
               ? 4
               : form.category === "Planning & Decor"
-              ? 3
-              : 5
+                ? 3
+                : 5
           }
           currStep={currStep}
         ></Steps>
@@ -1179,10 +1179,10 @@ const VendorProfile = ({ query }) => {
                     {CategotiesList.map((list) =>
                       form?.category === list.name
                         ? list.subCategories.map((sub) => (
-                            <MenuItem key={sub} value={sub}>
-                              {sub}
-                            </MenuItem>
-                          ))
+                          <MenuItem key={sub} value={sub}>
+                            {sub}
+                          </MenuItem>
+                        ))
                         : ""
                     )}
                   </Select>
@@ -1256,26 +1256,26 @@ const VendorProfile = ({ query }) => {
             <div className="row">
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mb-3">
                 <br></br>
-                <MuiPhoneNumber
+                <MuiTelInput
                   value={value}
                   id="outlined-basic"
                   label="Mobile No"
                   variant="outlined"
                   fullWidth
-                  defaultCountry={"in"}
+                  defaultCountry={"IN"}
                   onChange={handleChangeNumber}
                   onlyCountries={[
-                    "ae",
-                    "in",
-                    "th",
-                    "lk",
-                    "id",
-                    "ca",
-                    "mv",
-                    "vn",
-                    "kh",
-                    "ph",
-                    "my",
+                    "AE",
+                    "IN",
+                    "TH",
+                    "LK",
+                    "ID",
+                    "CA",
+                    "MV",
+                    "VN",
+                    "KH",
+                    "PH",
+                    "MY",
                   ]}
                 />
                 {/* <TextField
@@ -1841,8 +1841,8 @@ const VendorProfile = ({ query }) => {
             </button>
           )}
           {currStep == 5 ||
-          (currStep == 4 && form.category === "Music & Dance") ||
-          (currStep == 3 && form.category === "Planning & Decor") ? (
+            (currStep == 4 && form.category === "Music & Dance") ||
+            (currStep == 3 && form.category === "Planning & Decor") ? (
             <></>
           ) : (
             <button

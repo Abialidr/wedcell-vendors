@@ -15,7 +15,6 @@ import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-import SemiCircleProgressBar from "react-progressbar-semicircle";
 import Chart from "chart.js/auto";
 import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
 import Table from "@mui/material/Table";
@@ -1256,18 +1255,7 @@ const DefDashBoard = ({ setCurrState }) => {
                     </Menu>
                   </div>
                 </div>
-                {/* <div className={styles.semicirclebar}>
-              <SemiCircleProgressBar
-                percentage={75.55}
-                diameter={250}
-                strokeWidth={15}
-                stroke={"#FF44E1"}
-              ></SemiCircleProgressBar>
-              <div className={styles.spanvalue}>
-                <span className={styles.boxViewAmount}>75.55%</span>
-                <span className={styles.boxViewincdec}>+10%</span>
-              </div>
-            </div> */}
+
                 <span className={styles.succedearn}>
                   You succeesfully earned{" "}
                   <span className={styles.succedearnvalue}>

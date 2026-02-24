@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 import { useRouter } from "next/router";
 import axios from "axios";
 import { PROXY ,S3PROXY} from "../../config";
-// import { ProgressBar, Step } from "react-step-progress-bar";
 import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";

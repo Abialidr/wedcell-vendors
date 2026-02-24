@@ -1,4 +1,4 @@
-export const PROXY = "https://backend.wedfield.com";
+export const PROXY = "http://35.154.179.196:8080";
 export const S3PROXY = "https://wedfield-prod.s3.ap-south-1.amazonaws.com";
 
 export const firebaseUrl =

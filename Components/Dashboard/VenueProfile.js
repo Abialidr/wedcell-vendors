@@ -40,7 +40,7 @@ import { Spinner } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { selectUser, user } from "../../redux/reducer/appEssentials";
 import compressAndAppendFiles from "../compressAndAppendFiles";
-import MuiPhoneNumber from "material-ui-phone-number";
+import { MuiTelInput } from "mui-tel-input";
 import Steps from "../Steps";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -191,13 +191,13 @@ const CategotiesListVenue = [
 
 const VenueProfile = ({ query }) => {
   const [deleteAlert, setDeleteAlaert] = useState(false);
-  const errorr = () => {};
+  const errorr = () => { };
   const [secondNumbers, setSecondNumbers] = useState([""]);
 
-  const uploadErrorr = () => {};
+  const uploadErrorr = () => { };
 
-  const uploadSucsess = () => {};
-  const editSucsess = () => {};
+  const uploadSucsess = () => { };
+  const editSucsess = () => { };
   const [previewOpen, setPreviewOpen] = useState(false);
   const [previewImage, setPreviewImage] = useState("");
   const [previewTitle, setPreviewTitle] = useState("");
@@ -966,7 +966,7 @@ const VenueProfile = ({ query }) => {
                     <MenuItem
                       value={""}
                       disabled
-                      // selected={editable ? false : true}
+                    // selected={editable ? false : true}
                     >
                       --select--
                     </MenuItem>
@@ -1016,26 +1016,26 @@ const VenueProfile = ({ query }) => {
                 className="col-xl-6 col-lg-6 col-6 col-sm-6 col-6"
               >
                 <br></br>
-                <MuiPhoneNumber
+                <MuiTelInput
                   value={value}
                   id="outlined-basic"
                   label="Mobile No"
                   variant="outlined"
                   fullWidth
-                  defaultCountry={"in"}
+                  defaultCountry={"IN"}
                   onChange={handleChangeNumber}
                   onlyCountries={[
-                    "ae",
-                    "in",
-                    "th",
-                    "lk",
-                    "id",
-                    "ca",
-                    "mv",
-                    "vn",
-                    "kh",
-                    "ph",
-                    "my",
+                    "AE",
+                    "IN",
+                    "TH",
+                    "LK",
+                    "ID",
+                    "CA",
+                    "MV",
+                    "VN",
+                    "KH",
+                    "PH",
+                    "MY",
                   ]}
                 />
                 {/* <TextField
