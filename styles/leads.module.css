@@ -136,7 +136,7 @@
   }
   .buttonDiv {
     flex-direction: column-reverse;
-    align-items: end;
+    align-items: flex-end;
   }
   .buttonDiv button {
     align-self: center;
@@ -269,7 +269,7 @@
 .tablesdiv {
   display: flex;
   gap: 20px;
-  align-items: start;
+  align-items: flex-start;
 }
 .otherSetting {
   width: 35%;

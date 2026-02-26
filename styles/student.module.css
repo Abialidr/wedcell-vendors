@@ -63,7 +63,7 @@
   background: linear-gradient(180deg, #c53244 0%, #b4245d 100%) !important;
   color: white !important;
   font-size: 22px !important;
-  font-family: 'Poppin';
+  font-family: "Poppin";
   font-weight: 600;
 }
 .data_box .height {
@@ -154,7 +154,7 @@
 
   .student_main .details {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 43px;
     margin-bottom: 34px;
   }
@@ -194,7 +194,7 @@
 
   .student_main .details {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 43px;
     margin-bottom: 34px;
   }
@@ -248,7 +248,7 @@
 
   .student_main .details {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 43px;
     margin-bottom: 34px;
   }
@@ -306,7 +306,7 @@
 
   .student_main .details {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 10px;
     margin-bottom: 34px;
   }
@@ -367,7 +367,7 @@
 
   .student_main .details {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: 10px;
     margin-bottom: 20px;
   }
