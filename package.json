@@ -108,7 +108,8 @@
     "tss-react": "^4.5.2",
     "wedcell-next": "file:",
     "yup": "^1.2.0",
-    "yup-password": "^0.2.2"
+    "yup-password": "^0.2.2",
+    "@next/swc-linux-x64-gnu": "12.1.5"
   },
   "devDependencies": {
     "@capacitor/assets": "^2.0.4",
